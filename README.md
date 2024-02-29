@@ -9,7 +9,7 @@
 pip install -r requirements.txt
 ``` 
 
-## Execute o arquivo principal: gui.py
+## Run the main file: gui.py
 ```properties
 python gui.py
 ``` 
