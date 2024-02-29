@@ -2,7 +2,7 @@
 
 ### Organizer of separate files present in a folder. This program seeks to organize files into folders based on their specific extensions.
 
-![Software](caminho/para/imagem-gato.jpg)
+![Software](https://github.com/ruancorrea/FileOrganizer/blob/main/docs/img01.png)
 
 ## Installing dependencies
 ```properties
