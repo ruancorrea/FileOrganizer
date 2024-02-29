@@ -2,6 +2,8 @@
 
 ### Organizer of separate files present in a folder. This program seeks to organize files into folders based on their specific extensions.
 
+![Software](caminho/para/imagem-gato.jpg)
+
 ## Installing dependencies
 ```properties
 pip install -r requirements.txt

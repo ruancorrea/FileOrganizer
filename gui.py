@@ -28,7 +28,7 @@ class FileOrganizer:
     def extensions_for_folders_dict(self):
         # Mapeamento de extensões para pastas
         system_lang, _ = locale.getdefaultlocale()
-        if system_lang.startswith('pt'):
+        if system_lang.startswith('pt') == False:
             return {
                 '.jpg': 'imagens', '.jpeg': 'imagens', '.png': 'imagens', '.gif': 'imagens', '.webp': 'imagens', '.svg': 'imagens', '.jfif': 'imagens',
                 '.mp4': 'videos', '.avi': 'videos', '.mkv': 'videos',
@@ -117,7 +117,7 @@ class FileOrganizer:
 
 def get_language():
     system_lang, _ = locale.getdefaultlocale()
-    if system_lang.startswith('pt'):
+    if system_lang.startswith('pt') == False:
         language = {
             "file_organizer": "Organizador de Arquivos",
             "error": "Erro",
